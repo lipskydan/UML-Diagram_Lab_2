@@ -1,1 +1,1 @@
-# UML Diagram for Tree-Visualizator #
+# UML Diagrams for Tree-Visualizator #
