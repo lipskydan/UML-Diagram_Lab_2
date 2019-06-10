@@ -8531,8 +8531,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -62,
-											"top": 416,
+											"left": -110,
+											"top": 352,
 											"height": 13
 										},
 										{
@@ -8542,8 +8542,8 @@
 												"$ref": "AAAAAAFrQBJdkzqsTq0="
 											},
 											"font": "Arial;13;1",
-											"left": 813,
-											"top": 519,
+											"left": 789,
+											"top": 487,
 											"width": 271.6923828125,
 											"height": 13,
 											"text": "Tree"
@@ -8556,8 +8556,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -62,
-											"top": 416,
+											"left": -110,
+											"top": 352,
 											"width": 80.9072265625,
 											"height": 13,
 											"text": "(from Model1)"
@@ -8570,15 +8570,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -62,
-											"top": 416,
+											"left": -110,
+											"top": 352,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 808,
-									"top": 512,
+									"left": 784,
+									"top": 480,
 									"width": 281.6923828125,
 									"height": 25,
 									"stereotypeLabel": {
@@ -8614,8 +8614,8 @@
 												"$ref": "AAAAAAFrQISKfkupOhI="
 											},
 											"font": "Arial;13;0",
-											"left": 813,
-											"top": 542,
+											"left": 789,
+											"top": 510,
 											"width": 271.6923828125,
 											"height": 13,
 											"text": "#Node *root",
@@ -8623,8 +8623,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 808,
-									"top": 537,
+									"left": 784,
+									"top": 505,
 									"width": 281.6923828125,
 									"height": 23
 								},
@@ -8648,8 +8648,8 @@
 												"$ref": "AAAAAAFrQITzsUvWAXg="
 											},
 											"font": "Arial;13;0",
-											"left": 813,
-											"top": 565,
+											"left": 789,
+											"top": 533,
 											"width": 271.6923828125,
 											"height": 13,
 											"text": "-void recursiveDeleteNodes(const Node *node)",
@@ -8665,19 +8665,155 @@
 												"$ref": "AAAAAAFrQIUHakvpma8="
 											},
 											"font": "Arial;13;0",
-											"left": 813,
-											"top": 580,
+											"left": 789,
+											"top": 548,
 											"width": 271.6923828125,
 											"height": 13,
-											"text": "-Operation2()",
+											"text": "-QString getPreOrderTraversal()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIaoI0xJcCE=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIanLUxGwUA="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 563,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+bool isEmpty()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIau/kxYaOM=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIauEkxVhfA="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 578,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+Node* getRoot()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIa06Uxnyro=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIa0AExkRe8="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 593,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+virtual bool insert(const int &val)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIa7GEx2kpk=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIa6LExz5w8="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 608,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+virtual bool deleteItem(const int &val)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIbA3EyF7OU=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIbAC0yCtSw="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 623,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+TreeMemento createMemento()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIbHLUyUVPA=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIbGOUyRs+8="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 638,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+void setMemento(const TreeMemento& state)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIbNQ0yj7O8=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIbMWUygXnI="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 653,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+virtual void accept(TreeVisitor &v)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrQIbTqUyyGHw=",
+											"_parent": {
+												"$ref": "AAAAAAFrQBJdkzqyJu4="
+											},
+											"model": {
+												"$ref": "AAAAAAFrQIbSuEyv6ic="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 668,
+											"width": 271.6923828125,
+											"height": 13,
+											"text": "+void clear()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 808,
-									"top": 560,
+									"left": 784,
+									"top": 528,
 									"width": 281.6923828125,
-									"height": 38
+									"height": 158
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -8690,8 +8826,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -31,
-									"top": 208,
+									"left": -55,
+									"top": 176,
 									"width": 10,
 									"height": 10
 								},
@@ -8706,18 +8842,18 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -31,
-									"top": 208,
+									"left": -55,
+									"top": 176,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 808,
-							"top": 512,
+							"left": 784,
+							"top": 480,
 							"width": 281.6923828125,
-							"height": 86,
+							"height": 206,
 							"nameCompartment": {
 								"$ref": "AAAAAAFrQBJdkzqsTq0="
 							},
@@ -11309,8 +11445,116 @@
 							"_parent": {
 								"$ref": "AAAAAAFrQBJdkzqpMXI="
 							},
-							"name": "Operation2",
+							"name": "QString getPreOrderTraversal",
 							"visibility": "private"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIanLUxGwUA=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "bool isEmpty"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIauEkxVhfA=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "Node* getRoot"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIa0AExkRe8=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "virtual bool insert",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFrQIiyo0zynbg=",
+									"_parent": {
+										"$ref": "AAAAAAFrQIa0AExkRe8="
+									},
+									"name": "const int &val",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIa6LExz5w8=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "virtual bool deleteItem",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFrQIjkU00HLm0=",
+									"_parent": {
+										"$ref": "AAAAAAFrQIa6LExz5w8="
+									},
+									"name": "const int &val",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIbAC0yCtSw=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "TreeMemento createMemento"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIbGOUyRs+8=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "void setMemento",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFrQIm7k00sTqc=",
+									"_parent": {
+										"$ref": "AAAAAAFrQIbGOUyRs+8="
+									},
+									"name": "const TreeMemento& state",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIbMWUygXnI=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "virtual void accept",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFrQInsu01BGrs=",
+									"_parent": {
+										"$ref": "AAAAAAFrQIbMWUygXnI="
+									},
+									"name": "TreeVisitor &v",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrQIbSuEyv6ic=",
+							"_parent": {
+								"$ref": "AAAAAAFrQBJdkzqpMXI="
+							},
+							"name": "void clear"
 						}
 					]
 				},
